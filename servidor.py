@@ -23,6 +23,7 @@
 import requests
 import os
 import base64
+import time
 
 def create_gitignore():
     if not os.path.exists(".gitignore"):
@@ -67,3 +68,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+while True:
+    print("Ejecutando tarea...")
+    time.sleep(1)
