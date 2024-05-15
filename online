@@ -1,0 +1,6 @@
+import time
+
+while True:
+    # Inserta aquí el comando o la tarea que deseas ejecutar continuamente
+    print("Ejecutando tarea...")
+    time.sleep(300)  # Espera 5 minutos (300 segundos) antes de volver a ejecutar la tarea
